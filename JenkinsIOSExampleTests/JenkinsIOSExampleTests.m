@@ -2,32 +2,33 @@
 //  JenkinsIOSExampleTests.m
 //  JenkinsIOSExampleTests
 //
-//  Created by Shaun Ervine on 23/06/11.
-//  Copyright 2011 Shine Technologies. All rights reserved.
+//  Created by peng on 11/13/13.
+//
 //
 
-#import "JenkinsIOSExampleTests.h"
+#import <SenTestingKit/SenTestingKit.h>
 
+@interface JenkinsIOSExampleTests : SenTestCase
+
+@end
 
 @implementation JenkinsIOSExampleTests
 
 - (void)setUp
 {
     [super setUp];
-    
-    // Set-up code here.
+    // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
 - (void)tearDown
 {
-    // Tear-down code here.
-    
+    // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
 
 - (void)testExample
 {
-    STAssertTrue(TRUE,@"Some test scenario has passed.",nil);
+    STAssertTrue(TRUE, @"Some test scenario has passed.",nil);
 }
 
 @end
