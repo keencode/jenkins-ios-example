@@ -28,7 +28,8 @@
 
 - (void)testExample
 {
-    STAssertTrue(TRUE, @"Some test scenario has passed.",nil);
+    BOOL foo = NO;
+    STAssertTrue(foo, @"Some test scenario has passed.", nil);
 }
 
 @end
